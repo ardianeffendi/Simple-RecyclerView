@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.DetailActivity">
+
+        <RelativeLayout
+            android:id="@+id/relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_Uni"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                tools:src="@android:color/darker_gray"/>
+
+            <LinearLayout
+                android:id="@+id/layout_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/img_Uni"
+                android:layout_toRightOf="@id/img_Uni"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_detail_uniName"
+                    android:maxLines="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:ellipsize="end"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/roboto_500"
+                    tools:text="@string/uni_name"/>
+
+                <TextView
+                    android:id="@+id/tv_detail_website"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/roboto_300"
+                    tools:text="https://www.itb.com"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+        <TextView
+            android:id="@+id/rectangle"
+            android:background="@drawable/detail_line_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/roboto_regular"
+            android:padding="5dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:text="@string/about_the_uni"/>
+    </LinearLayout>
+
+</LinearLayout>

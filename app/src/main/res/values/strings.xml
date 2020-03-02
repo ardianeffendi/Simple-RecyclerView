@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Top Ten Universities</string>
+
+    <!-- Universities's Name -->
+    <string name="itb">Institut Teknologi Bandung</string>
+    <string name="ugm">Universitas Gadjah Mada</string>
+    <string name="ui">Universitas Indonesia</string>
+    <string name="unair">Universitas Airlangga</string>
+    <string name="ipb">Institut Pertanian Bogor</string>
+    <string name="its">Institut Teknologi Sepuluh November</string>
+    <string name="binus">Bina Nusantara University</string>
+    <string name="unpar">Universitas Padjajaran</string>
+    <string name="undip">Universitas Diponegoro</string>
+    <string name="unbraw">Universitas Brawijaya</string>
+
+    <string name="home_page">Home Page</string>
+    <string name="profile_desc">profile</string>
+    <string name="developer_s_profile">Developer\'s Profile</string>
+    <string name="uni_name">Example University</string>
+    <string name="uni_detail">Lorem Ipsum Doler Bla Lorem Ipsum Doler Bla Lorem Ipsum Doler Bla</string>
+    <string name="detail_page">Detail Page</string>
+    <string name="uni_s_image">Uni\'s image</string>
+    <string name="about_the_uni">About the Uni</string>
+    <string name="dev_name">Ardian Maulana Effendi</string>
+    <string name="email">ardian.effendi21@gmail.com</string>
+    <string name="profile">profile</string>
+
+
+</resources>
